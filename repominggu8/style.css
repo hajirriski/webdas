@@ -1,0 +1,40 @@
+p{
+    color: green;
+    font-family: serif;
+    line-height: 1.75em;
+}
+div{
+    color: red;
+}
+
+i{
+    font-family: sans;
+    color: orange;
+}
+
+h2{
+    font-family: sans;
+    color: #333;
+}
+
+.biru{
+    color: yellow;
+    background: blue;
+    padding: 5px; 
+}
+#header{
+    background: chocolate;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+input[type=text]{
+    background: none;
+    color: thistle;
+    padding: 15px;
+    border: 2px solid turquoise;
+}
+*.p{
+    padding: 1px;
+    margin: 1px;
+ }
