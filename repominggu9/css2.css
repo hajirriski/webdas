@@ -1,0 +1,43 @@
+body{
+    background: #f6efe6;
+    font-family: roboto;
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak{
+    background: blue;
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+}
+.gradient1{
+    background: linear-gradient(#2B0948,#CE653B); /* Standard syntax */
+    background: -webkit-linear-gradient(#2B0948,#CE653B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2B0948,#CE653B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient((#2B0948,#CE653B); /* For Firefox 3.6 to 15 */
+}
+.gradient2{
+    background: linear-gradient(to right,#2B0948,#CE653B);
+    background: -webkit-linear-gradient(left,#2B0948,#CE653B);
+    background: -o-linear-gradient(right,#2B0948,#CE653B);
+    background: -moz-linear-gradient(right,#2B0948,#CE653B);
+}
+.gradient3{
+    background: radial-gradient(#2B0948,#77CA8C,#CE653B);
+    background: -webkit-linear-gradient(#2B0948,#77CA8C,#CE653B);
+    background: -o-linear-gradient(#2B0948,#77CA8C,#CE653B);
+    background: -moz-linear-gradient((#2B0948,#77CA8C,#CE653B);
+}
+.gradient4{
+    background: radial-gradient(circle,#2B0948,#77CA8C,#CE653B);
+    background: -webkit-linear-gradientcircle,(#2B0948,#77CA8C,#CE653B);
+    background: -o-linear-gradient(circle,#2B0948,#77CA8C,#CE653B);
+    background: -moz-linear-gradient((circle,#2B0948,#77CA8C,#CE653B);    
+}
